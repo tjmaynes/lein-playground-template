@@ -3,6 +3,5 @@
               [clj-http.client :as client]
               [aero.core :refer (read-config)]))
 
-(defn read-edn-file
-  [] (read-config (clojure.java.io/resource "config.edn"))
-  [filename] (read-config (clojure.java.io/resource filename)))
+(defn read-edn-file []
+  (read-config (clojure.java.io/resource "config.edn")))
