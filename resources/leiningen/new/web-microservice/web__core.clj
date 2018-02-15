@@ -8,8 +8,8 @@
   (start [this]
     (if web-service
       this
-      (assoc this :web-service
-             (jetty/run-jetty routes/web-routes config))))
+      (let [service (jetty/run-jetty routes/web-routes config)]
+        (assoc this :web-service service))))
   (stop [this]
     (when web-service
       (.stop web-service))

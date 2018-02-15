@@ -1,1 +1,3 @@
-{:dev #profile {:username "username" :password "password"}}
+{:development #profile {:username "username" :password "password"}
+ :staging #profile {:username "username" :password "password"}
+ :production #profile {:username "username" :password "password"}}

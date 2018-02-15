@@ -1,5 +1,5 @@
-(defproject tjmaynes/lein-template "0.1.0-SNAPSHOT"
-  :description "FIXME: write description"
+(defproject tjmaynes/lein-template "0.2.0-SNAPSHOT"
+  :description "My Leiningen templates for Clojure and ClojureScript projects."
   :url "https://github.com/tjmaynes/lein-template"
   :scm {:name "git"
         :url "https://github.com/tjmaynes/lein-template"}
