@@ -1,12 +1,10 @@
-# lein-template
+# lein-playground
 
-My [Leiningen](https://leiningen.org) templates for Clojure and ClojureScript projects.
+Leiningen template for trying things out in the repl.
 
 ## Usage
 
-### Playground
-
-To create a new playground project using this template, run:
+To create a new playground project, run the following command:
 
 ```bash
 lein new playground new-playground-project
